@@ -1,0 +1,54 @@
+
+.Languages-main-block{
+  
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-image:url("./assets/images/Cloudy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   color: white;
+    margin: 0;
+    margin-top:-2px ;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Languages-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    color: white;
+    height: 59vh;
+    width: 101%;
+}
+.Languages-Title{
+    font-size: 35px;
+    font-weight: 700;
+    
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.Languages-Slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #000000;
+    height: 100vh;
+   color: white;
+ 
+    padding: 0;
+    overflow: hidden;
+  
+}
+  
+
