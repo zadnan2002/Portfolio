@@ -67,7 +67,7 @@ function pauseSound() {
 </div>
        </div>
 
-      <Atropos style={{height:"610px"}} alwaysActive shadow={false} highlight={false}  rotateXMax={180} rotateYMax={20}> <img src="https://www.freepnglogos.com/uploads/rick-and-morty-png/rick-and-morty-primitive-collaboration-primitive-0.png" style={{marginTop:"5vh",marginLeft:"5vw",height:"600px",width:"600px",}} ></img>
+      <Atropos style={{height:"610px"}} alwaysActive shadow={false} highlight={false}  rotateXMax={180} rotateYMax={20}> <img src={require('./assets/images/rickflip.png')}  style={{marginTop:"5vh",marginLeft:"5vw",height:"600px",width:"600px",}} ></img>
     </Atropos>
     <img src='https://i.postimg.cc/K8592t7j/transparent3d.png' style={{color:"white",marginTop:"20vh",marginLeft:"-3vw",height:"50px",width:"50px",objectFit:"cover"}} ></img>
       
