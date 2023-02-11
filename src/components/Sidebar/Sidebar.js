@@ -33,9 +33,11 @@ function ResponsiveAppBar() {
         navigate('/about');
     };
     const handleContactItem = () => {
-        navigate('/contact');
+        window.open('mailto:adnan.alzahabi@lau.edu');
     };
-var username=localStorage.getItem('username');
+    const handleDoughnut = () => {
+        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    };
 
     return (
         <AppBar position="static" sx={{ background: "#07004D", width:"100%",boxShadow:"none"}} >
@@ -94,6 +96,9 @@ var username=localStorage.getItem('username');
                             <MenuItem onClick={handleContactItem}>
                                 <Typography textAlign="center">Contact</Typography>
                             </MenuItem>
+                            <MenuItem onClick={handleDoughnut}>
+                                <Typography textAlign="center">Free Doughnut</Typography>
+                            </MenuItem>
                         </Menu>
                     </Box>
                     <Button style={{ fontSize: '20px' }} href="/" sx={{
@@ -115,8 +120,11 @@ var username=localStorage.getItem('username');
                           About
 
                         </Button>
-                        <Button href="/contact" sx={{ my: 2, color: 'white', display: 'block' }}>
+                        <Button href="mailto:adnan.alzahabi@lau.edu" sx={{ my: 2, color: 'white', display: 'block' }}>
                             Contact
+                        </Button>
+                        <Button href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"} sx={{ my: 2, color: 'white', display: 'block' }}>
+                            Free Doughnut
                         </Button>
                     </Box>
                 </Toolbar>
