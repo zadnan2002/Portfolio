@@ -14,7 +14,7 @@
       return (
         <Card sx={{  minWidth: 345 }}>
           <CardMedia
-            sx={{ padding: "5em 3em 3em 3em", objectFit: "contain", height: "35px", width: "35px", margin: "auto" , backgroundColor: "white", borderRadius: "0%" ,marginTop:2    }}
+            sx={{ padding: "5em 3em 3em 3em", objectFit: "contain", height: "30px", width: "80px", margin: "auto" , backgroundColor: "white", borderRadius: "0%" ,marginTop:2    }}
             image= "https://brandeps.com/logo-download/M/MySQL-logo-vector-01.svg"
             title="SQL"
     
