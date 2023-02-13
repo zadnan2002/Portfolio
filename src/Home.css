@@ -170,7 +170,7 @@ min-width: 780px;
         background-image: url("./assets/images/Rect Light.svg");
         background-repeat: repeat-y;
         background-size: cover;
-        height: 100vh;
+        min-height: 100vh;
         width: 100%;
         overflow-x: auto;
       
