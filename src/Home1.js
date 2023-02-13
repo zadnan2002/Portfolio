@@ -47,9 +47,9 @@ function pauseSound() {
         <div className='name-block-home'>
 
           <div className='name-home'>
-            <div className='name-home-title' >
-       <Typography variant='h2' style={{color:"#FFFCF9",fontWeight:"bold",}}>A d n a n &nbsp; A l &nbsp; Z a h a b i   </Typography> 
-        <Typography variant='h4' style={{color:"#FFFCF9",fontWeight:"bold",}}>Software Engineer</Typography>
+            <div className='name-home-title' style={{fontWeight:"bold"}} >
+       <Typography id='name' variant='h2' style={{fontWeight:"bold"}} >A d n a n &nbsp; A l &nbsp; Z a h a b i   </Typography> 
+        <Typography id='engineer' variant='h4' style={{fontWeight:"bold"}}>Software Engineer</Typography>
         <PlayArrowIcon fontSize='large' onClick={playSound} style={{color:"#FFFCF9",cursor:"pointer"}}></PlayArrowIcon> <PauseIcon fontSize='large' onClick={pauseSound} style={{color:"#FFFCF9",cursor:"pointer"}}></PauseIcon>
      
         </div>
@@ -66,9 +66,10 @@ function pauseSound() {
           </div>
 </div>
        </div>
-
+<div id='rick'>
       <Atropos style={{height:"610px"}} alwaysActive shadow={false} highlight={false}  rotateXMax={180} rotateYMax={20}> <img src={require('./assets/images/rickflip.png')}  style={{marginTop:"5vh",marginLeft:"5vw",height:"600px",width:"600px",}} ></img>
     </Atropos>
+    </div>
     <img src='https://i.postimg.cc/K8592t7j/transparent3d.png' style={{color:"white",marginTop:"20vh",marginLeft:"-3vw",height:"50px",width:"50px",objectFit:"cover"}} ></img>
       
     </div>
