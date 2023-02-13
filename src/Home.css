@@ -173,7 +173,7 @@ min-width: 780px;
         height: 100vh;
         width: 100%;
         overflow-x: auto;
-        max-height: fit-content;
+      
     }
     .name-home-programming{
         margin-left: 0vw;
