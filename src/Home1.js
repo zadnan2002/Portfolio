@@ -13,7 +13,9 @@ import PauseIcon from '@mui/icons-material/Pause';
 import ResponsiveAppBar from './components/Sidebar/Sidebar'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ReactGA from 'react-ga';
 function Home1() {
+  ReactGA.initialize('G-NBFCWVE4LG');
   const [playStatus, setPlayStatus] = useState(false);
 
 function playSound() {

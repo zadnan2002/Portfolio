@@ -6,7 +6,7 @@ import Home1 from './Home1';
 import Home2 from './Home2';
 import Home3 from './Home3';
 import HomeSnow from './HomeSnow';
-import{BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import{BrowserRouter as Router,Routes,Route, HashRouter} from 'react-router-dom';
 import ReactGA from 'react-ga';
 import { useEffect } from 'react';
 
