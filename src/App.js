@@ -7,10 +7,25 @@ import Home2 from './Home2';
 import Home3 from './Home3';
 import HomeSnow from './HomeSnow';
 import{BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import ReactGA from 'react-ga';
+import { useEffect } from 'react';
+
+
+ 
+
+
 function App() {
+  ReactGA.initialize('G-NBFCWVE4LG');
+  useEffect (() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
+  });
+
   return (
-  <Router>
+
+  <Router >
       <div className="App">
+
         <HomeSnow></HomeSnow>
      
      <Routes>
