@@ -151,9 +151,7 @@ min-width: 780px;
         flex-direction: row;
         margin-left: 70vw;
         @media screen and (max-width: 768px) {
-            margin-left: 54vw;
-            
-        
+            margin-left: 52vw;
             
         }
         
