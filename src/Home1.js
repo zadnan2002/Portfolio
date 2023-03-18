@@ -67,8 +67,8 @@ function pauseSound() {
   
 <Link color={"#FFFFFF"} underline='always' href='/about' style={{fontWeight:"bold"}}>Get Schwifty</Link>
 <div className='name-home-buttons' >
-            <GitHubIcon onClick={() => window.open('https://www.github.com/zadnan2002', '_blank')}fontSize='medium' style={{color:"#FFFCF9",cursor:"pointer",marginRight:"10px"}}></GitHubIcon>
-          <LinkedInIcon onClick={()=>window.open('https://linkedin.com/in/adnan-al-zahabi','_blank')} fontSize='medium' style={{color:"#FFFCF9",cursor:"pointer"}}></LinkedInIcon>
+            <GitHubIcon onClick={() => window.open('https://www.github.com/zadnan2002', '_blank')}fontSize='large' style={{color:"#FFFCF9",cursor:"pointer",marginRight:"10px"}}></GitHubIcon>
+          <LinkedInIcon onClick={()=>window.open('https://linkedin.com/in/adnan-al-zahabi','_blank')} fontSize='large' style={{color:"#FFFCF9",cursor:"pointer"}}></LinkedInIcon>
           </div>
 </div>
        </div>
