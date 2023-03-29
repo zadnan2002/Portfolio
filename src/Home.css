@@ -162,7 +162,7 @@ min-width: 780px;
         margin-left: 70vw;
         min-height: 40px;
         @media screen and (max-width: 768px) {
-            margin-left: 52vw;
+            margin-left: 48vw;
             
         }
         
