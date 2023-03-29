@@ -89,7 +89,16 @@ min-width: 780px;
 }
 
 /* now make the following page mobile friendly by resizing the picture and making the fonts smaller */
-
+@media screen and (max-width:500px) {
+    #rick{
+        max-height: 0px;
+       max-width: 0px;
+    }
+    #threed{
+        max-height: 0px;
+       max-width: 0px;
+    }
+}
 @media screen and (max-width: 768px) {
     #rick{
         max-height: 200px;
