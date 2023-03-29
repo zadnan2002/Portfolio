@@ -160,7 +160,7 @@ min-width: 780px;
     .name-home-buttons{
         display: flex;
         flex-direction: row;
-        margin-left: 56vw;
+        margin-left: 53vw;
         min-height: 40px;
         
         
@@ -183,7 +183,7 @@ min-width: 780px;
     min-width: 300px;
     }
     #schwifty{
-        min-width:120px;
+        min-width:110px;
    
     }
     .main-block-home{
