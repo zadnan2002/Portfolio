@@ -182,6 +182,9 @@ min-width: 780px;
         text-align: center;
     min-width: 300px;
     }
+    #schwifty{
+        min-width:60px;
+    }
     .main-block-home{
         display: flex;
         flex-direction: row;
