@@ -184,6 +184,7 @@ min-width: 780px;
     }
     #schwifty{
         min-width:90px;
+        font-size: 11px;
     }
     .main-block-home{
         display: flex;
