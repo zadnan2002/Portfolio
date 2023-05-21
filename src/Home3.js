@@ -8,6 +8,7 @@ import MediaCard11 from './components/Card11';
 import MediaCard12 from './components/Card12';
 import Home2 from './Home2';
 import ResponsiveAppBar from './components/Sidebar/Sidebar';
+import MediaCard13 from './components/card13';
 
 //create a new component that has a title 'My Projects'
 //This has a container that holds a display of all the projects
@@ -39,6 +40,7 @@ function Home3() {
  <MediaCard10/>
  <MediaCard11/>
  <MediaCard12/>
+ <MediaCard13/>
 
   </ReactCardCarousel>
  
