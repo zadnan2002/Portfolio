@@ -11,6 +11,7 @@ import MediaCard7 from './components/card7';
 import MediaCard8 from './components/card8';
 import MediaCard9 from './components/card9';
 import MediaCard0 from './components/card1';
+import MediaCard14 from './components/Card14';
 
 function Home2() {
   //return a div with a class of 'Languages-main-block' that has svg icons for each language (HTML CSS JS REACT BOOTSTRAP Java Python SQL )
@@ -32,7 +33,7 @@ const emoji=require('emoji-dictionary');
   <ReactCardCarousel autoplay={true} autoplay_speed={8000}  >
  <MediaCard0/>
  <MediaCard/>
-
+<MediaCard14/>
   <MediaCard3/>
   <MediaCard4/>
   <MediaCard5/>
