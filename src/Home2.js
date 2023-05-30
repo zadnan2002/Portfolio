@@ -32,15 +32,16 @@ const emoji=require('emoji-dictionary');
 
   <ReactCardCarousel autoplay={true} autoplay_speed={8000}  >
   <MediaCard14/>
-  <MediaCard8/>   
   <MediaCard9/>
- <MediaCard0/>
- <MediaCard/>
   <MediaCard3/>
   <MediaCard4/>
   <MediaCard5/>
   <MediaCard6/>
   <MediaCard7/>
+  <MediaCard8/>   
+ <MediaCard0/>
+ <MediaCard/>
+ 
   
 
   </ReactCardCarousel>
