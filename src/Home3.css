@@ -14,6 +14,7 @@
     min-height: 728px;
     
 }
+
 .Projects-block{
     display: flex;
     flex-direction: column;
@@ -26,4 +27,35 @@
     width: 100%;
   position: relative;
     
+}
+@media screen and (max-width: 760px){
+  .Projects-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    height: 59vh;
+    width: 100%;
+  position: relative;
+    
+}
+.Projects-main-block{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  color: white;
+
+  background-color: #07004D;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100vh;
+  width: 240%;
+  min-height: 728px;
+  
+}
+
 }
