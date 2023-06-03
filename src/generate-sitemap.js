@@ -13,4 +13,4 @@ const sitemapInstance=sitemap.createSitemap({
     urls: urls,
 });
 
-fs.writeFileSync('./sitemap.xml', sitemapInstance.toString());
+fs.writeFileSync('./public/sitemap.xml', sitemapInstance.toString());
