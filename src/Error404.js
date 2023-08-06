@@ -5,7 +5,7 @@ import "./Error404.css";
 const Error404 = () => {
   return (
     <div className="main-404">
-      <h1 className="404-title">404 Error: The pickle jar is not opening!</h1>
+      <h1 className="404-title">Error 404: The pickle jar is not opening!</h1>
       <a href="/">
         <img
           src={require("./assets/images/MortyPickledFront.webp")}
