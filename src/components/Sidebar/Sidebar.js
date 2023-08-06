@@ -10,13 +10,13 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-    const navigate = useNavigate();
+    const navigate = useHistory();
 
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
@@ -40,7 +40,7 @@ function ResponsiveAppBar() {
     };
 
     return (
-        <AppBar position="static" sx={{ background: "#07004D", width:"100%",boxShadow:"none"}} >
+        <AppBar position="static" sx={{ background: "#07004D", width: "100%", boxShadow: "none" }} >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
 
@@ -54,7 +54,7 @@ function ResponsiveAppBar() {
                         textDecoration: 'none',
 
                     }}>
-                      Addy's Corner
+                        Addy's Corner
 
                     </Button>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -117,7 +117,7 @@ function ResponsiveAppBar() {
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
 
                         <Button href="/about" sx={{ my: 2, color: 'white', display: 'block' }}>
-                          About
+                            About
 
                         </Button>
                         <Button href="mailto:adnan.alzahabi@lau.edu" sx={{ my: 2, color: 'white', display: 'block' }}>
@@ -132,6 +132,6 @@ function ResponsiveAppBar() {
         </AppBar>
     );
 
-    
+
 }
 export default ResponsiveAppBar;

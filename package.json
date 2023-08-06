@@ -34,7 +34,7 @@
     "react-leaflet": "^4.2.0",
     "react-loaders": "^3.0.1",
     "react-rain-animation": "^1.0.4",
-    "react-router-dom": "^6.8.1",
+    "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.8.9",
     "react-snowfall": "^1.2.1",
