@@ -17,7 +17,7 @@ export default function MediaCard5() {
           padding: "5em 3em 3em 3em",
           objectFit: "contain",
           height: "30px",
-          width: "52px",
+          width: "70px",
           margin: "auto",
           backgroundColor: "white",
           borderRadius: "0%",
