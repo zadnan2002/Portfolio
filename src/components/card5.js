@@ -16,8 +16,8 @@ export default function MediaCard5() {
         sx={{
           padding: "5em 3em 3em 3em",
           objectFit: "contain",
-          height: "32px",
-          width: "48px",
+          height: "30px",
+          width: "52px",
           margin: "auto",
           backgroundColor: "white",
           borderRadius: "0%",
