@@ -8,7 +8,7 @@ import HomeSnow from "./HomeSnow";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ReactGA from "react-ga";
 import { useEffect } from "react";
-import { Analytics } from "@vercel/analytics";
+import { Analytics } from "@vercel/analytics/react";
 import Error404 from "./Error404";
 
 function App() {
