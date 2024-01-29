@@ -2,7 +2,6 @@ import "./App.scss";
 
 import ResponsiveAppBar from "./components/Sidebar/Sidebar";
 import Home1 from "./Home1";
-import Home2 from "./Home2";
 import Home3 from "./Home3";
 import HomeSnow from "./HomeSnow";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -10,6 +9,7 @@ import ReactGA from "react-ga";
 import { useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import Error404 from "./Error404";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   ReactGA.initialize("G-NBFCWVE4LG");
@@ -22,6 +22,7 @@ function App() {
       <div className="App">
         <HomeSnow />
         <Analytics></Analytics>
+        <SpeedInsights />
         <Switch>
           <Route exact path="/" component={Home1} />
           <Route path="/about" component={Home3} />
