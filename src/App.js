@@ -23,7 +23,6 @@ function App() {
         <HomeSnow />
         <Analytics></Analytics>
         <SpeedInsights />
-        <ResponsiveAppBar />
         <Switch>
           <Route exact path="/" component={Home1} />
           <Route path="/about" component={Home3} />
